@@ -34,14 +34,14 @@ const Collection = () => {
       <a href="/assets/images/designer.jpeg">
         <img src="/assets/images/designer.jpeg" alt="Designer" />
       </a>
-      <a href="/assets/images/background_japan.jpg">
-        <img src="/assets/images/background_japan.jpg" alt="Background Japan" />
+      <a href="/assets/images/IMG_0400.jpg">
+        <img src="/assets/images/IMG_0400.jpg" alt="Background Japan" />
       </a>
-      <a href="/assets/images/mtfuji.webp">
-        <img src="/assets/images/mtfuji.webp" alt="Mt Fuji" />
+      <a href="/assets/images/IMG_0415.jpg">
+        <img src="/assets/images/IMG_0415.jpg" alt="Mt Fuji" />
       </a>
-      <a href="/assets/images/designer.jpeg">
-        <img src="/assets/images/designer.jpeg" alt="Designer" />
+      <a href="/assets/images/IMG_0413.jpgg">
+        <img src="/assets/images/IMG_0413.jpg" alt="Designer" />
       </a>
     </CollectionDesign>
   )
