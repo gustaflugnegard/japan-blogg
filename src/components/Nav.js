@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <NavBar>
       <ul>
-        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/">Home</Link></li>
         <li><Link to="/posts">Posts</Link></li>
         <li><Link to="/gallery">Gallery</Link></li>
       </ul>

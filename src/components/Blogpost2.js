@@ -17,13 +17,13 @@ esse cillum dolore eu fugiat nulla pariatur. Excepteur
 sintoccaecat cupidatat non proident, sunt in culpa qui officia 
 deserunt mollit anim id est laborum.`;
 
-const picture_1 = `/assets/images/IMG_0400.jpg`;
+const picture_1 = `/assets/images/IMG_0400.JPG`;
 const desc_pic_1 = `Båt`
 
-const picture_2 = `/assets/images/IMG_0413.jpg`;
+const picture_2 = `/assets/images/IMG_0413.JPG`;
 const desc_pic_2 = `stugor på ö`
 
-const picture_3 = `/assets/images/IMG_0415.jpg`;
+const picture_3 = `/assets/images/IMG_0415.JPG`;
 const desc_pic_3 = `Designer`
 
 // END OF POST ------------------
