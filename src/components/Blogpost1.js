@@ -1,6 +1,33 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
+// BGN OF POST -------------
+const post_number = `Blog post one`;
+const posted = `Posted by Gustaf on 4 Sep 2024`;
+const text = 
+`
+Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat
+`;
+const more_text = 
+`Duis aute irure dolor in reprehenderit in voluptate velit 
+esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+sintoccaecat cupidatat non proident, sunt in culpa qui officia 
+deserunt mollit anim id est laborum.`;
+
+const picture_1 = `/assets/images/background_japan.jpg`;
+const desc_pic_1 = `Background Japan`
+
+const picture_2 = `/assets/images/mtfuji.webp`;
+const desc_pic_2 = `Mt Fuji`
+
+const picture_3 = `/assets/images/designer.jpeg`;
+const desc_pic_3 = `Designer`
+
+// END OF POST ------------------
+
 // Styled components
 const BlogDesign = styled.article`
   overflow: hidden;
@@ -67,33 +94,28 @@ const Blogpost1 = () => {
 
   return (
     <BlogDesign>
-      <Margin>Blog post one</Margin>
-      <small>Posted by Gustaf on Aug 2</small>
+      <Margin>{post_number}</Margin>
+      <small>{posted}</small>
       <Text showMore={showMore}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat 
+        {text}
         <span className="dots">...</span>
         <span> </span>
-        <span className="more-text">Duis aute irure dolor in reprehenderit in voluptate velit 
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia
-        deserunt mollit anim id est laborum.
+        <span className="more-text">
+        {more_text}
         </span> 
       </Text>
       <ReadMoreButton onClick={handleReadMoreClick}>
         {showMore ? 'Read less' : 'Read more'}
       </ReadMoreButton>
       <PostImage>
-        <a href="/assets/images/background_japan.jpg">
-          <img src="/assets/images/background_japan.jpg" alt="Background Japan" />
+        <a href={picture_1}>
+          <img src={picture_1} alt={desc_pic_1} />
         </a>
-        <a href="/assets/images/mtfuji.webp">
-          <img src="/assets/images/mtfuji.webp" alt="Mt Fuji" />
+        <a href={picture_2}>
+          <img src={picture_2} alt={desc_pic_2} />
         </a>
-        <a href="/assets/images/designer.jpeg">
-          <img src="/assets/images/designer.jpeg" alt="Designer" />
+        <a href={picture_3}>
+          <img src={picture_3} alt={desc_pic_3} />
         </a>
       </PostImage>
     </BlogDesign>
