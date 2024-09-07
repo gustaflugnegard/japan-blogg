@@ -25,11 +25,11 @@ const CollectionDesign = styled.div`
 const Collection = () => {
   return (
     <CollectionDesign>
-      <a href="/assets/images/dag0/flygplan.JPG">
-        <img src="/assets/images/dag0/flygplan.JPG" alt="Flygplan" />
+      <a href="/assets/images/dag0/flygplan.jpg">
+        <img src="/assets/images/dag0/flygplan.jpg" alt="Flygplan" />
       </a>
-      <a href="/assets/images/dag0/flygplats_china.JPG">
-        <img src="/assets/images/dag0/flygplats_china.JPG" alt="Flygplats Peking" />
+      <a href="/assets/images/dag0/flygplats_china.jpg">
+        <img src="/assets/images/dag0/flygplats_china.jpg" alt="Flygplats Peking" />
       </a>
       <a href="/assets/images/dag0/torn.JPG">
         <img src="/assets/images/dag0/torn.JPG" alt="Sky tree" />
@@ -49,8 +49,8 @@ const Collection = () => {
       <a href="/assets/images/gallery_img/gata1.JPG">
         <img src="/assets/images/gallery_img/gata1.JPG" alt="Tempel tokyo" />
       </a>
-      <a href="/assets/images/gallery_img/gokart.JPG">
-        <img src="/assets/images/gallery_img/gokart.JPG" alt="Tempel tokyo" />
+      <a href="/assets/images/gallery_img/gokart.jpg">
+        <img src="/assets/images/gallery_img/gokart.jpg" alt="Tempel tokyo" />
       </a>
       <a href="/assets/images/gallery_img/hotel.JPG">
         <img src="/assets/images/gallery_img/hotel.JPG" alt="Tempel tokyo" />

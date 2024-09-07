@@ -15,10 +15,10 @@ const more_text =
 Framme på hostellet ca 13:00 svensk tid, 20:00 japansk tid. Jag har faktiskt inte mycket att säga mer än att jag är postivt överaskad. Fint, rent och precis vad man betalde för. Området känns tryggt och gästerna verkar ordnade. Jag är dock lite förvånad av åldersvariationen. Igår pratade jag med 4 st varav alla översteg 40 års åldern. Det är aldrig försent att backpacka! 
 `;
 
-const picture_1 = `/assets/images/dag0/flygplan.JPG`;
+const picture_1 = `/assets/images/dag0/flygplan.jpg`;
 const desc_pic_1 = `Flygplan`
 
-const picture_2 = `/assets/images/dag0/flygplats_china.JPG`;
+const picture_2 = `/assets/images/dag0/flygplats_china.jpg`;
 const desc_pic_2 = `Flygplats Peking`
 
 const picture_3 = `/assets/images/dag0/torn.JPG`;
