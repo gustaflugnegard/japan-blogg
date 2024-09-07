@@ -3,28 +3,26 @@ import styled from 'styled-components';
 
 // BGN OF POST -------------
 const post_number = `Blog post one`;
-const posted = `Posted by Gustaf on 4 Sep 2024`;
+const posted = `Posted by Gustaf on 7 Sep 2024`;
 const text = 
 `
-Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-ullamco laboris nisi ut aliquip ex ea commodo consequat
+Dag 0.
+Framme i Beijing. Resan har gått bra! Men jag räknade med att filmskärmen skulle funka vilket den inte gjorde. Som tur var hade jag några gamla podcasts nerladdade som jag kunde lyssna om på. Det var sådär att lyssna på gamla podcasts i 8 timmar faktiskt xd. Positivt var iallafall att vi serverades mat 2 gånger under resan. Det märks dessutom att man reser långt, har haft 4 passkontroller hittills. I Beijing är det blå himmel och sol men väldigt tomt på folk på flygplatsen. Butiker och restauranger ekar tomma och i högtalarna spelas något stråkinstrument i en melodi som påminner om ett tempel. Klockan är egentligen 4:43 svensk tid och vi är alla ganska trötta. På sofforna ligger folk utspritt och sover. Klockan är 10:43 i Beijing.
 `;
 const more_text = 
-`Duis aute irure dolor in reprehenderit in voluptate velit 
-esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-sintoccaecat cupidatat non proident, sunt in culpa qui officia 
-deserunt mollit anim id est laborum.`;
+`
+<br /> <br />
+Framme på hostellet ca 13:00 svensk tid, 20:00 japansk tid. Jag har faktiskt inte mycket att säga mer än att jag är postivt överaskad. Fint, rent och precis vad man betalde för. Området känns tryggt och gästerna verkar ordnade. Jag är dock lite förvånad av åldersvariationen. Igår pratade jag med 4 st varav alla översteg 40 års åldern. Det är aldrig försent att backpacka! 
+`;
 
-const picture_1 = `/assets/images/background_japan.jpg`;
-const desc_pic_1 = `Background Japan`
+const picture_1 = `/assets/images/dag0/flygplan.JPG`;
+const desc_pic_1 = `Flygplan`
 
-const picture_2 = `/assets/images/mtfuji.webp`;
-const desc_pic_2 = `Mt Fuji`
+const picture_2 = `/assets/images/dag0/flygplats_china.JPG`;
+const desc_pic_2 = `Flygplats Peking`
 
-const picture_3 = `/assets/images/designer.jpeg`;
-const desc_pic_3 = `Designer`
+const picture_3 = `/assets/images/dag0/torn.JPG`;
+const desc_pic_3 = `Tokyo sky tree`
 
 // END OF POST ------------------
 
@@ -100,9 +98,7 @@ const Blogpost1 = () => {
         {text}
         <span className="dots">...</span>
         <span> </span>
-        <span className="more-text">
-        {more_text}
-        </span> 
+        <span className="more-text" dangerouslySetInnerHTML={{ __html: more_text }} />
       </Text>
       <ReadMoreButton onClick={handleReadMoreClick}>
         {showMore ? 'Read less' : 'Read more'}

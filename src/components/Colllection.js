@@ -8,8 +8,8 @@ const CollectionDesign = styled.div`
     padding: 10px;
 
     a {
-    flex: 1 1 200px;
-    max-width: 400px;
+    flex: 1 1 400px;
+    max-width: 1000px;
     }
 
     img{
@@ -25,24 +25,50 @@ const CollectionDesign = styled.div`
 const Collection = () => {
   return (
     <CollectionDesign>
-      <a href="/assets/images/background_japan.jpg">
-        <img src="/assets/images/background_japan.jpg" alt="Background Japan" />
+      <a href="/assets/images/dag0/flygplan.JPG">
+        <img src="/assets/images/dag0/flygplan.JPG" alt="Flygplan" />
       </a>
-      <a href="/assets/images/mtfuji.webp">
-        <img src="/assets/images/mtfuji.webp" alt="Mt Fuji" />
+      <a href="/assets/images/dag0/flygplats_china.JPG">
+        <img src="/assets/images/dag0/flygplats_china.JPG" alt="Flygplats Peking" />
       </a>
-      <a href="/assets/images/designer.jpeg">
-        <img src="/assets/images/designer.jpeg" alt="Designer" />
+      <a href="/assets/images/dag0/torn.JPG">
+        <img src="/assets/images/dag0/torn.JPG" alt="Sky tree" />
       </a>
-      <a href="/assets/images/IMG_0400.JPG">
-        <img src="/assets/images/IMG_0400.JPG" alt="Background Japan" />
+      <a href="/assets/images/dag1/gata.JPG">
+        <img src="/assets/images/dag1/gata.JPG" alt="Gata" />
       </a>
-      <a href="/assets/images/IMG_0415.JPG">
-        <img src="/assets/images/IMG_0415.JPG" alt="Mt Fuji" />
+      <a href="/assets/images/dag1/ramen.JPG">
+        <img src="/assets/images/dag1/ramen.JPG" alt="Ramen noodles" />
       </a>
-      <a href="/assets/images/IMG_0413.JPG">
-        <img src="/assets/images/IMG_0413.JPG" alt="Designer" />
+      <a href="/assets/images/dag1/tempel.JPG">
+        <img src="/assets/images/dag1/tempel.JPG" alt="Tempel tokyo" />
       </a>
+      <a href="/assets/images/gallery_img/city.JPG">
+        <img src="/assets/images/gallery_img/city.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/gata1.JPG">
+        <img src="/assets/images/gallery_img/gata1.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/gokart.JPG">
+        <img src="/assets/images/gallery_img/gokart.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/hotel.JPG">
+        <img src="/assets/images/gallery_img/hotel.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/ramen1.JPG">
+        <img src="/assets/images/gallery_img/ramen1.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/temel2.JPG">
+        <img src="/assets/images/gallery_img/temel2.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/tempel1.JPG">
+        <img src="/assets/images/gallery_img/tempel1.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/trees.JPG">
+        <img src="/assets/images/gallery_img/trees.JPG" alt="Tempel tokyo" />
+      </a>
+
+
     </CollectionDesign>
   )
 }

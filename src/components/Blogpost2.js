@@ -3,28 +3,26 @@ import styled from 'styled-components';
 
 // BGN OF POST -------------
 const post_number = `Blog post two`;
-const posted = `Posted by Gustaf on 4 Sep 2024`;
+const posted = `Posted by Gustaf on 7 Sep 2024`;
 const text = 
 `
-HEJ ipsum dolor sit amet, consectetur adipisicing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-ullamco laboris nisi ut aliquip ex ea commodo consequat
+Dag 1 
+Imorse tog jag tunnelbanan till Tokyo city (Ginza) där möttes jag av ett lugnare men väldigt varmt Tokyo. Jag vandrade mest runt och svettades. På vägen gick jag även förbi Kejsarpalatset beläget Mitt i Tokyo. Tyvärr fick man bara stå på utsidan och titta. När jag kände mig färdig med det tog jag tunnelbanan vidare till Shibuya och möttes av betydligt mer folk. 
 `;
 const more_text = 
-`Duis aute irure dolor in reprehenderit in voluptate velit 
-esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-sintoccaecat cupidatat non proident, sunt in culpa qui officia 
-deserunt mollit anim id est laborum.`;
+`I Shibuya gick jag tittade jag in i butiker som Nintentdo, UNIQLO och Adidas. Betydlgit mer affärer fanns men då allt är på japanska blir det svårt att berätta namnet. Det var supertrevligt där, mycket folk, elektrisk atmosfär och god mat. Lunchen kostade hela 60 riksdaler. I övrigt köpte jag en svart T-shirt då min linneskjorta gjorde att jag lös som en neonlampa i folkvimlet. Japaner är väldigt välklädda men älskar mörka färger. 
+<br /> <br />
+Nu vankas det kväll, möjligtvis kan det bli ett äventyr.. Vem vet. Jag träffade precis en britt som kom precis, de brukar ju inte vara speciellt fega för en pint och jag har igår fått reda på var man ska för att festa.
+`;
 
-const picture_1 = `/assets/images/IMG_0400.JPG`;
-const desc_pic_1 = `Båt`
+const picture_1 = `/assets/images/dag1/gata.JPG`;
+const desc_pic_1 = `gata`
 
-const picture_2 = `/assets/images/IMG_0413.JPG`;
-const desc_pic_2 = `stugor på ö`
+const picture_2 = `/assets/images/dag1/ramen.JPG`;
+const desc_pic_2 = `Ramen noodels`
 
-const picture_3 = `/assets/images/IMG_0415.JPG`;
-const desc_pic_3 = `Designer`
+const picture_3 = `/assets/images/dag1/tempel.JPG`;
+const desc_pic_3 = `Tempel Tokyo city`
 
 // END OF POST ------------------
 
@@ -100,9 +98,7 @@ const Blogpost2 = () => {
         {text}
         <span className="dots">...</span>
         <span> </span>
-        <span className="more-text">
-        {more_text}
-        </span> 
+        <span className="more-text" dangerouslySetInnerHTML={{ __html: more_text }} />
       </Text>
       <ReadMoreButton onClick={handleReadMoreClick}>
         {showMore ? 'Read less' : 'Read more'}
