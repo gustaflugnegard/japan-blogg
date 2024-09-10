@@ -89,6 +89,18 @@ const Collection = () => {
       <a href="/assets/images/gallery_img/dag2/gata_asakusa.JPG">
         <img src="/assets/images/gallery_img/dag2/gata_asakusa.JPG" alt="Tempel tokyo" />
       </a>
+      <a href="/assets/images/dag3/gata1.jpg">
+        <img src="/assets/images/dag3/gata1.jpg" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/dag3/gata2.jpg">
+        <img src="/assets/images/dag3/gata2.jpg" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/dag3/figur.jpg">
+        <img src="/assets/images/dag3/figur.jpg" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/jag.JPG">
+        <img src="/assets/images/jag.JPG" alt="Tempel tokyo" />
+      </a>
 
     </CollectionDesign>
   )
