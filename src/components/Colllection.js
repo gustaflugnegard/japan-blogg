@@ -101,6 +101,21 @@ const Collection = () => {
       <a href="/assets/images/jag.JPG">
         <img src="/assets/images/jag.JPG" alt="Tempel tokyo" />
       </a>
+      <a href="/assets/images/gallery_img/dag5/fagel.jpg">
+        <img src="/assets/images/gallery_img/dag5/fagel.jpg" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/dag5/cool.JPG">
+        <img src="/assets/images/gallery_img/dag5/cool.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/dag5/lampa.JPG">
+        <img src="/assets/images/gallery_img/dag5/lampa.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/dag5/samuraj.JPG">
+        <img src="/assets/images/gallery_img/dag5/samuraj.JPG" alt="Tempel tokyo" />
+      </a>
+      <a href="/assets/images/gallery_img/dag5/utsikt.JPG">
+        <img src="/assets/images/gallery_img/dag5/utsikt.JPG" alt="Tempel tokyo" />
+      </a>
 
     </CollectionDesign>
   )
