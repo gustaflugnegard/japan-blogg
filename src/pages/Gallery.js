@@ -1,8 +1,9 @@
 import Header from "../components/Header"
 import Nav from "../components/Nav"
-import Showcase from "../components/Showcase"
 import Collection from "../components/Colllection"
 import Bottom from "../components/Bottom"
+import Showcase2 from "../components/Showcase2"
+import Showcase3 from "../components/Showcase3"
 
 const Gallery = () => {
   return (
@@ -10,8 +11,8 @@ const Gallery = () => {
 
       <Header />
       <Nav />
-      <Showcase text={"Följ min instagram @gustaf_i_japan"} />
-      <Showcase text={"Från och med nu postas hela kollektionen på https://photos.app.goo.gl/hqf3RextY5ovxGSS7"} />
+      <Showcase3 text={"Följ min instagram @Gustaf_i_japan"} />
+      <Showcase2 text={"Se hela kollektionen på Google Photos!"} />
       <Collection />
       <Bottom />
     </div>
