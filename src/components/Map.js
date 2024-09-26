@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import pic from '../assets/images/japanoff4.png';
+import pic from '../assets/images/japanoff5.png';
 
 // Styled component for the container
 const MapContainer = styled.section`
