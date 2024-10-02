@@ -10,6 +10,7 @@ import Blogpost5 from "../components/Blogpost5"
 import Blogpost6 from "../components/Blogpost6"
 import Blogpost7 from "../components/Blogpost7"
 import Blogpost8 from "../components/Blogpost8"
+import Blogpost9 from "../components/Blogpost9"
 
 const Posts = () => {
   return (
@@ -17,6 +18,7 @@ const Posts = () => {
       <Header />
       <Nav />
       <Showcase text={"Här nedan postas blider och lite tankar"} />
+      <Blogpost9 />
       <Blogpost8 />
       <Blogpost7 />
       <Blogpost6 />
