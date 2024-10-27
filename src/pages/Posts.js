@@ -12,6 +12,7 @@ import Blogpost7 from "../components/Blogpost7"
 import Blogpost8 from "../components/Blogpost8"
 import Blogpost9 from "../components/Blogpost9"
 import Blogpost10 from "../components/Blogpost10"
+import Blogpost11 from "../components/Blogpost11"
 
 const Posts = () => {
   return (
@@ -19,6 +20,7 @@ const Posts = () => {
       <Header />
       <Nav />
       <Showcase text={"Här nedan postas blider och lite tankar"} />
+      <Blogpost11 />
       <Blogpost10 />
       <Blogpost9 />
       <Blogpost8 />
